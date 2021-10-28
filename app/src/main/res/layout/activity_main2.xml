@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2.1"
+        android:layout_width="179dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="16dp"
+        android:transitionName="fade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alonekshmr" />
+
+    <ImageView
+        android:id="@+id/imageView2.2"
+        android:layout_width="179dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2.1"
+        app:srcCompat="@drawable/backtomekshmr" />
+
+    <ImageView
+        android:id="@+id/imageS3"
+        android:layout_width="179dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2.2"
+        app:srcCompat="@drawable/gangnam" />
+
+    <ImageView
+        android:id="@+id/imageView2.4"
+        android:layout_width="180dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageS3"
+        app:srcCompat="@drawable/powerkshmr" />
+
+    <ImageView
+        android:id="@+id/imageView2.5"
+        android:layout_width="156dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2.4"
+        app:srcCompat="@drawable/wildcardkshmr" />
+
+    <TextView
+        android:id="@+id/textView2.1"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="88dp"
+        android:text="Nhac San"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2.2"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="84dp"
+        android:text="Nhac San"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2.3"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="84dp"
+        android:text="Nhac San"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2.4"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="84dp"
+        android:text="Nhac San"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2.5"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="84dp"
+        android:text="Nhac San"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
